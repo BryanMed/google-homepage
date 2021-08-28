@@ -1,0 +1,63 @@
+nav{
+   display: flex;
+   justify-content: flex-end;
+}
+
+a{
+   padding: 10px;
+   text-decoration: none;
+   color: #3c4043;
+}
+
+#logo{
+   display: flex;
+   justify-content: center;
+   padding: 7rem 0 3rem 0;
+}
+
+#busqueda{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#busqueda input{
+   width: 50%;
+   padding: 0.5rem 0;
+   border-radius: 20px;
+   border: 1px solid lightgray;
+}
+
+button{
+   background-color: #f8f9fa;
+   border: 1px solid #f8f9fa;
+   border-radius: 8px;
+   color: #3c4043;
+   font-size: 14px;
+   margin: 11px 4px;
+   padding: 8px 20px;
+}
+
+button:hover{
+   border: 1px solid lightgray;
+}
+
+#service{
+   display: flex;
+   justify-content: center;
+   padding: 5rem 0 8rem 0;
+}
+
+#pais{
+   padding: 10px;
+   background-color: #f2f2f2;
+}
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   align-content: flex-end;
+   padding: 30px;
+   background-color: #f2f2f2;
+   font-size: 12px;
+}
